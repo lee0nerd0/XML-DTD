@@ -1,0 +1,143 @@
+<!DOCTYPE Property SYSTEM "property.dtd">
+
+<Property>
+	
+	<Block Type="uni">
+		<Owner Id="SS"/>
+		<Com Id="UC055">
+			<Addr>
+				<Num>55</Num>
+				<Street>Knoxville</Street>
+				<City>Lampton</City>
+				<Prov>Ontario</Prov>
+				<Country>Canada</Country>
+				<Postal>N8Y3N6</Postal>
+			</Addr>
+			<Area total="666"/>
+			<Rent frequency="monthly" total="666"/>
+			<Vacancy><Renter Id="SS"/></Vacancy>
+		</Com>
+	</Block>
+
+	<Block Type="multi">
+	  <Owner Id="SS"/>
+		<Res Id="MR331">
+			<Addr>
+				<Unit>1</Unit>
+				<Num>33</Num>
+				<Street>Marble</Street>
+				<City>Kensington</City>
+				<Prov>Ontario</Prov>
+				<Country>Canada</Country>
+				<Postal>M6Y2N6</Postal>
+			</Addr>
+			<Rooms number="1"/>
+			<AC included="yes"/>
+			<Util included="yes"/>
+			<Rent frequency="monthly" total="666"/>
+			<Vacancy><Renter Id="JS"/></Vacancy>
+		</Res>
+		
+		<Res Id="MR332">
+			<Addr>
+				<Unit>2</Unit>
+				<Num>33</Num>
+				<Street>Marble</Street>
+				<City>Kensington</City>
+				<Prov>Ontario</Prov>
+				<Country>Canada</Country>
+				<Postal>M6Y2N6</Postal>
+			</Addr>
+			<Rooms number="2"/>
+			<AC included="yes"/>
+			<Util included="yes"/>
+			<Rent frequency="monthly" total="666"/>
+			<Vacancy><Renter Id="JD"/></Vacancy>
+		</Res>
+	</Block>
+	
+	<Block Type="multi">
+		<Owner Id="MD"/>
+		<Com Id="MC681">
+			<Addr>
+				<Unit>1</Unit>
+				<Num>68</Num>
+				<Street>Hempville</Street>
+				<City>Boulder</City>
+				<Prov>Ontario</Prov>
+				<Country>Canada</Country>
+				<Postal>J8Y3Y6</Postal>
+			</Addr>
+			<Area total="986"/>
+			<Rent frequency="monthly" total="765"/>
+			<Vacancy></Vacancy>
+		</Com>
+		<Com Id="MC682">
+			<Addr>		
+				<Unit>2</Unit>
+				<Num>68</Num>
+				<Street>Hempville</Street>
+				<City>Boulder</City>
+				<Prov>Ontario</Prov>
+				<Country>Canada</Country>
+				<Postal>J8Y3Y6</Postal>
+			</Addr>	
+			<Area total="986"/>
+			<Rent frequency="monthly" total="765"/>
+			<Vacancy></Vacancy>
+		</Com>
+		<Com Id="MC683">
+			<Addr>
+				<Unit>3</Unit>
+				<Num>68</Num>
+				<Street>Hempville</Street>
+				<City>Boulder</City>
+				<Prov>Ontario</Prov>
+				<Country>Canada</Country>
+				<Postal>J8Y3Y6</Postal>
+			</Addr>
+			<Area total="986"/>
+			<Rent frequency="monthly" total="876"/>
+			<Vacancy></Vacancy>
+		</Com>
+	</Block>
+	
+	<Block Type="uni">
+	  <Owner Id="MD"/>
+		<Res Id="UR022">
+			<Addr>
+				<Num>22</Num>
+				<Street>Stone</Street>
+				<City>Upton</City>
+				<Prov>Ontario</Prov>
+				<Country>Canada</Country>
+				<Postal>Z6Y2N6</Postal>
+			</Addr>
+			<Rooms number="2"/>
+			<AC included="no"/>
+			<Util included="yes"/>
+			<Rent frequency="monthly" total="666"/>
+			<Vacancy><Renter Id="JD"/></Vacancy>
+		</Res>
+	</Block>
+	
+	<Block Type="uni">
+	  <Owner Id="MD"/>
+		<Res Id="UR044">
+			<Addr>
+				<Num>44</Num>
+				<Street>Rock</Street>
+				<City>Downton</City>
+				<Prov>Ontario</Prov>
+				<Country>Canada</Country>
+				<Postal>A6Y2N6</Postal>
+			</Addr>
+			<Rooms number="2"/>
+			<AC included="no"/>
+			<Util included="yes"/>
+			<Rent frequency="monthly" total="666"/>
+			<Vacancy><Renter Id="JS"/></Vacancy>
+		</Res>
+	</Block>
+
+</Property>

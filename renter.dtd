@@ -1,0 +1,17 @@
+<!ELEMENT Renter (Tenant*)>
+<!ELEMENT Tenant (Name, Phone*, Properties)>
+<!ATTLIST Tenant Id ID #REQUIRED>
+<!ELEMENT Name (First, Initial?, Last)>
+<!ELEMENT First (#PCDATA)>
+<!ELEMENT Initial (#PCDATA)>
+<!ELEMENT Last (#PCDATA)>
+
+<!ELEMENT Phone (Country, Area, Local)>
+<!ATTLIST Phone Type (Cell|Home|Work|Other) #REQUIRED>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT Area (#PCDATA)>
+<!ELEMENT Local (#PCDATA)>
+
+<!ELEMENT Properties (Property*)>
+<!ELEMENT Property EMPTY>
+<!ATTLIST Property Id CDATA #REQUIRED>

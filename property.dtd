@@ -1,0 +1,36 @@
+<!ELEMENT Property (Block*)>
+
+<!ELEMENT Block (Owner, (Res|Com)+)>
+<!ATTLIST Block Type (multi|uni) #REQUIRED>
+
+<!ELEMENT Addr (Unit?, Num, Street, City, Prov, Country, Postal)>
+<!ELEMENT Unit (#PCDATA)>
+<!ELEMENT Num (#PCDATA)>
+<!ELEMENT Street (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Prov (#PCDATA)>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT Postal (#PCDATA)>
+
+<!ELEMENT Owner EMPTY>
+<!ATTLIST Owner Id CDATA #REQUIRED>
+
+<!ELEMENT Res (Addr, Rooms, AC, Util, Rent, Vacancy)>
+<!ATTLIST Res Id ID #REQUIRED>
+<!ELEMENT Rooms EMPTY>
+<!ATTLIST Rooms number CDATA #REQUIRED>
+<!ELEMENT AC EMPTY>
+<!ATTLIST AC included (yes|no) #REQUIRED>
+<!ELEMENT Util EMPTY>
+<!ATTLIST Util included (yes|no) #REQUIRED>
+
+<!ELEMENT Com (Addr, Area, Rent, Vacancy)>
+<!ATTLIST Com Id ID #REQUIRED>
+<!ELEMENT Area EMPTY>
+<!ATTLIST Area total CDATA #REQUIRED>
+
+<!ELEMENT Rent EMPTY>
+<!ATTLIST Rent frequency (monthly|yearly) #REQUIRED total CDATA #REQUIRED>
+<!ELEMENT Vacancy (Renter?)>
+<!ELEMENT Renter EMPTY>
+<!ATTLIST Renter Id CDATA #REQUIRED>

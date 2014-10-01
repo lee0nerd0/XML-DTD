@@ -1,0 +1,51 @@
+<!DOCTYPE Owner SYSTEM "owner.dtd">
+
+
+<Owner>
+	<Indiv Id="MD">
+		<Name>
+			<First>Man</First>
+			<Initial>J</Initial>
+			<Last>Dem</Last>
+		</Name>
+		<Addr>
+			<Unit>4</Unit>
+			<Num>33</Num>
+			<Street>Marble</Street>
+			<City>Kensington</City>
+			<Prov>Ontario</Prov>
+			<Country>Canada</Country>
+			<Postal>M6Y2N6</Postal>
+		</Addr>
+		<Phone>
+			<Country>1</Country>
+			<Area>416</Area>
+			<Local>9871234</Local>
+		</Phone>
+	</Indiv>
+		
+	<Corp Id="SS">
+		<CorpName>Son and Sons</CorpName>
+		<Addr>
+			<Num>55</Num>
+			<Street>Knoxville</Street>
+			<City>Lampton</City>
+			<Prov>Ontario</Prov>
+			<Country>Canada</Country>
+			<Postal>N8Y3N6</Postal>
+		</Addr>
+		<CorpPhone>
+			<Country>1</Country>
+			<Area>647</Area>
+			<Local>5671234</Local>
+			<Name>
+				<First>Jet</First>
+				<Initial>P</Initial>
+				<Last>Son</Last>
+			</Name>
+			<Title>CEO</Title>
+		</CorpPhone>
+	</Corp>
+
+
+</Owner>

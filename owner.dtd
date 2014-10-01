@@ -1,0 +1,28 @@
+<!ELEMENT Owner (Indiv|Corp)*>
+
+<!ELEMENT Indiv (Name, Addr, Phone+)>
+<!ATTLIST Indiv Id CDATA #REQUIRED>
+<!ELEMENT Name (First, Initial?, Last)>
+<!ELEMENT First (#PCDATA)>
+<!ELEMENT Initial (#PCDATA)>
+<!ELEMENT Last (#PCDATA)>
+<!ELEMENT Phone (Country, Area, Local)>
+
+
+<!ELEMENT Corp (CorpName, Addr, CorpPhone+)>
+<!ATTLIST Corp Id CDATA #REQUIRED>
+<!ELEMENT CorpName (#PCDATA)>
+<!ELEMENT CorpPhone (Country, Area, Local, Name, Title)>
+<!ELEMENT Title (#PCDATA)>
+
+<!ELEMENT Area (#PCDATA)>
+<!ELEMENT Local (#PCDATA)>
+
+<!ELEMENT Addr (Unit?, Num, Street, City, Prov, Country, Postal)>
+<!ELEMENT Unit (#PCDATA)>
+<!ELEMENT Num (#PCDATA)>
+<!ELEMENT Street (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Prov (#PCDATA)>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT Postal (#PCDATA)>

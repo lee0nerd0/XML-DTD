@@ -1,0 +1,36 @@
+<!DOCTYPE Renter SYSTEM "renter.dtd">
+
+
+<Renter>
+
+	<Tenant Id="JS">
+		<Name>
+			<First>Joe</First>
+			<Last>Schmoe</Last>
+		</Name>
+		<Phone Type="Home">
+			<Country>1</Country>
+			<Area>416</Area>
+			<Local>5555555</Local>
+		</Phone>
+		<Properties>
+			<Property Id="MC001"/>
+		</Properties>
+	</Tenant>
+
+	<Tenant Id="JD">
+		<Name>
+			<First>Jane</First>
+			<Last>Doe</Last>
+		</Name>
+		<Phone Type="Work">
+			<Country>1</Country>
+			<Area>647</Area>
+			<Local>8888888</Local>
+		</Phone>
+		<Properties>
+			<Property Id="UR001"/>
+		</Properties>
+	</Tenant>
+	
+</Renter>
